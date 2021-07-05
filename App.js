@@ -1,13 +1,12 @@
-import React, { useState } from 'react';
-import { StyleSheet, ScrollView, SafeAreaView } from 'react-native';
-import Card from './components/Card';
+import React from 'react';
+import { StyleSheet, SafeAreaView } from 'react-native';
 import List from './components/List';
 
 function App() {
   
   return (
     <SafeAreaView style={styles.container}>
-      <List></List>
+      <List/>
     </SafeAreaView>
   );
 }
